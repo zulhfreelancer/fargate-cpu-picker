@@ -11,7 +11,12 @@
 		"build": "npm run build-json && tsc",
 		"test": "jest --passWithNoTests"
 	},
-	"keywords": [],
+	"keywords": [
+		"aws",
+		"cdk",
+		"ecs",
+		"fargate"
+	],
 	"author": "Zulhilmi Zainudin",
 	"license": "ISC",
 	"repository": {
