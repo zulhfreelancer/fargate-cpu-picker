@@ -1,6 +1,6 @@
 {
 	"name": "fargate-cpu-picker",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "A helper library written in TypeScript to support AWS CDK development i.e. building ECS Task Definition. It will suggest the minimum/maximum CPU (vCPU) based on memory/RAM needed to run an ECS task.",
 	"main": "dist/src/index.js",
 	"types": "dist/src/index.d.ts",
