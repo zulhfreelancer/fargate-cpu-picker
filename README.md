@@ -7,6 +7,23 @@ A helper library written in TypeScript to support AWS CDK development i.e. build
 - NPM: https://www.npmjs.com/package/fargate-cpu-picker
 - GitHub: https://github.com/zulhfreelancer/fargate-cpu-picker
 
+## Setup
+
+You may need to add `DOM` to the `lib` section in your _tsconfig.json_ file like so:
+
+```typescript
+{
+  "compilerOptions": {
+    // code omitted for brevity
+    "lib": [
+      "es2018",
+      "DOM"
+    ],
+    // code omitted for brevity...
+  }
+}
+```
+
 ## Usage
 
 ```typescript
